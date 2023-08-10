@@ -227,7 +227,7 @@ header{
     letter-spacing: -1px;
 }
 .conten-ms-vs.right span span{
-    color: #0066a0;
+    color: #2E65A0;
 }
 .right p{
     width: 300px;
@@ -283,7 +283,7 @@ header{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #0066a0;
+    background-color: #2E65A0;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -321,7 +321,7 @@ header{
     z-index: 9;
 }
 .blue2{
-    background-color: #0066a0;
+    background-color: #2E65A0;
     z-index: 9;
 }
 .servicios h2,.servicios h1,.servicios p{
@@ -405,7 +405,16 @@ button{
 /*atención*/
 .atencion{
     width: 100%;
+    height: 820px;
     position: relative;
+}
+.back-color{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 .atencion .first{
     background-color: #F4F4F4;
@@ -415,8 +424,405 @@ button{
 .atencion .second{
     width: 100%;
     height: 70%;
+    display: flex;
 }
-.atencion .second .second1{
+.atencion .second .second1,.atencion .second .second2{
     width: 50%;
     height: 100%;
+}
+.atencion .second .second1{
+    background-color: #000000;
+}
+.atencion .second .second2{
+    background-color: #4274B8;
+}
+.empr-neg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.empr-neg h3,.empr-neg p{
+    color: #fff;
+}
+.empr-neg h3{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    padding: 30px 0;
+}
+.empr-neg p{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    width: 330px;
+    margin-bottom: 40px;
+}
+.empr-neg img{
+    width: 578px;
+}
+.empr,.neg{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.empr-neg button{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26.01px;
+}
+/*preguntas frecuentes*/
+.preg-frec{
+    padding: 40px;
+    width: 100%;
+    display: flex;
+}
+.width{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1281px;
+    padding: 0 70px;
+}
+.preg-frec .first{
+    padding-bottom: 20px;
+}
+.btn-consultas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.btn-consultas div{
+    padding: 10px 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn-consultas button{
+    color: #000;
+    font-family: 'Lexend', sans-serif;
+    width: 350px;
+    font-size: 14px;
+}
+/*FOOTER*/
+footer{
+    background-color: #EBEBEB;
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+footer .logo-text{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+footer .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
+    width: 30%;
+}
+.desc-cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 200px;
+}
+footer .contacto span{
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    font-weight: 900;
+    width: 200px;
+}
+footer .contacto .cnt{
+    line-height: 1.8;
+}
+.logo-text img{
+    width: 300px;
+    padding-bottom: 10px;
+}
+.logo-text p{
+    width: 400px;
+    font-family: 'Lexend', sans-serif;
+}
+.cnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to right, #4274B8 50%, #000 50%);
+    border-radius: 50%;
+    margin-right: 7px;
+}
+footer .fuerza{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lexend', sans-serif;
+    padding-left: 10%;
+}
+footer .fuerza span{
+    font-size: 24px;
+    font-weight: 700;
+}
+footer .fuerza p{
+    padding-bottom: 10px;
+}
+footer .fuerza .icons{
+    display: flex;
+}
+footer .fuerza .icons img{
+    width: 40px;
+    height: 39px;
+    margin-right: 10px;
+}
+/*etiqueta bottom*/
+.etiqueta.bottom{
+    font-family: 'Jost', sans-serif;
+}
+.etiqueta.bottom .right{
+    justify-content: start;
+}
+.etiqueta.bottom .list-etiqueta{
+    justify-content: end;
+    color: #0475BC;
+}
+/*CATALOGO*/
+.catalogo{
+    width: 100%;
+    display: flex;
+    padding: 100px 60px;
+}
+.F4F4F4{
+    background-color: #F4F4F4;
+}
+.w-catalogo{
+    flex-direction: row;
+}
+section .img-line{
+    display: flex;
+    width: 50%;
+}
+.img-line img{
+    width: 350px;
+}
+.desc .cnt{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 300px;
+    justify-content: start!important;
+}
+.cnt .line{
+    display: flex;
+}
+.w-catalogo .desc{
+    width: 50%;
+    display: flex;
+}
+.ajust-desc {
+    display: flex;
+    flex-direction: column;
+}
+.ajust-desc span,.ajust-desc h2{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.ajust-desc span{
+    font-size: 25px;
+}
+.ajust-desc h2{
+    color: #0475BC;
+    font-size: 55px;
+}
+.ajust-desc .texto{
+    width: 100%;
+}
+.ajust-desc p{
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 320px;
+}
+.ajust-desc .line p{
+    width: 120px;
+}
+/*CONTACTO*/
+.info-form{
+    width: 100%;
+    display: flex;
+}
+.info-form .info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    padding: 70px 0px 70px 100px;
+    justify-content: center;
+}
+.info span{
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+.info h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    color: #0475BC;
+}
+.info p{
+    font-family: 'Lexend', sans-serif;
+    width: 250px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.info .lista{
+    display: flex;
+    align-items: center;
+    line-height: 1.7;
+}
+.info .lista span{
+    font-size: 15.5px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+}
+.info-form .form{
+    width: 60%;
+    background-color: #0076BF;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0px;
+    color: #fff;
+    align-items: center;
+}
+.info-form .form span{
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.info-form .form input,.info-form .form textarea{
+    background-color: #015D97;
+    border: none;
+}
+.info-form .form input,.info-form .form textarea{
+    padding: 15px;
+    width: 450px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.info-form .form textarea{
+    width: 450px;
+    height: 240px;
+    max-width: 450px;
+    min-width: 450px;
+    max-height: 300px;
+    min-height: 240px;
+}
+.info-form .form input::placeholder,.info-form .form textarea::placeholder{
+    color: #fff;
+    font-size: 12px;
+}
+.info-form .form div{
+    display: flex;
+    width: 450px;
+}
+.info-form .form div input{
+    width: 220px;
+}
+.info-form .form div input:first-child{
+    margin-right: 25px;
+}
+.nosot-cont{
+    padding: 90px 0;
+}
+.nosot-cont .width{
+    display: flex;
+    align-items: center;
+}
+.servicios{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+}
+.servicios .serv{
+    padding: 0 30px;
+}
+.servicios .serv div:nth-child(2){
+    font-weight: 700;
+}
+.nosot-cont .text{
+    margin-bottom: 40px;
+}
+.nosot-cont .first span{
+    padding-right: 10px;
+}
+
+@media(max-width:480px){
+    .etiqueta div,.etiqueta span{
+        display: none;
+        padding: 10px;
+    }
+    .name img{
+        width: 50%;
+    }
+    .name-menu-bisonte .menu{
+        display: none;
+    }
+    .portada{
+        position: relative;
+    }
+    .portada img{
+        display: none;
+    }
+    .portada .respImg{
+        width: 100%;
+        height: 100%;
+    }
+    .portada .bisonteImg{
+        background-image: url(../src/assets/img/Portada\ Bisonte\ Web.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-position-x: center;
+    }
+    .img-section1{
+        width: 285px;
+        height: 293px;
+    }
+    .conten-subtitle-img{
+        width: 300px;
+    }
+    .conten-subtitle-img .first{
+        font-size: 40px;
+    }
+    .conten-subtitle-img .second{
+        font-size: 35px;
+    }
+    .conten-mision-vision{
+        position: relative;
+    }
+    .img.conf{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 305px;
+        width: 100%;
+        z-index: -9;
+    }
+    .mis-vis,.col-confecciones{
+        border: none;
+    }
+    .img.mision-vision{
+        display: none;
+    }
 }
