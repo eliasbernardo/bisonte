@@ -126,6 +126,9 @@ header{
     letter-spacing: -2.1px;
     font-size: 50px;
 }
+.conten-subtitle-img .sec-line{
+    display: none;
+}
 .conten-subtitle-img .second{
     font-family: 'Barlow', sans-serif!important;
     font-weight: 600;
@@ -470,6 +473,9 @@ button{
     width: 330px;
     margin-bottom: 40px;
 }
+.empr-neg .back-color{
+    display: none;
+}
 .empr-neg img{
     width: 578px;
 }
@@ -800,7 +806,7 @@ section .img-line{
         height: 100%;
     }
     .portada .bisonteImg{
-        background-image: url(../src/assets/img/Portada\ Bisonte\ Web.png);
+        background-image: url(../src/assets/img/Rectanglehome.png);
         width: 100%;
         height: 100%;
         background-repeat: no-repeat;
@@ -854,7 +860,7 @@ section .img-line{
         text-align: center;
     }
     .conten-ms-vs.left.first{
-        background-color: #fff;
+        background-color: #F7F7F7;
         padding: 40px 0;
     }
     .conten-ms-vs.right{
@@ -879,9 +885,16 @@ section .img-line{
     }
     .mis-vis .mision,.mis-vis .vision{
         padding: 20px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mis-vis{
+        background-color: #F0F0F0;
     }
     .mis-vis .vision{
-        background-color: #fff;
+        background-color: #F7F7F7;
         width: 100%;
         align-items: center;
         display: flex;
@@ -898,6 +911,9 @@ section .img-line{
     }
     .backImg{
         width: 100%;
+        height: 44vh;
+        min-height: 470px;
+        max-height: 480px;
         position: relative;
     }
     .servicios p{
@@ -991,7 +1007,7 @@ section .img-line{
     }
     svg {
         overflow: hidden;
-        width: 500px;
+        width: 100%;
     }
     .atencion{
         height: auto;
@@ -1002,9 +1018,286 @@ section .img-line{
         display: none;
     }
     .empr-neg{
+        flex-direction: column-reverse;
+    }
+    .empr-neg img{
+        width: 100%;
+    }
+    .empr-neg .back-color{
+        display: flex;
         flex-direction: column;
     }
     .empr, .neg{
         width: 100%;
+        position: relative;
+        padding: 40px 0;
+    }
+    .preg-frec.conten-subtitle-img{
+        width: 100%;
+    }
+    .preg-frec .width{
+        padding: 0;
+    }
+    .preg-frec .first{
+        display: flex;
+        flex-direction: column;
+    }
+    .preg-frec .btn-consultas{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-consultas button{
+        width: 300px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer .logo-text,footer .contacto,footer .fuerza{
+        width: 100%;
+        text-align: center;
+    }
+    footer .logo-text{
+        display: flex;
+        align-items: center;
+    }
+    .logo-text img{
+        width: 200px;
+    }
+    .logo-text p{
+        font-size: 13px;
+        width: 300px;
+    }
+    footer .contacto span{
+        display: none;
+    }
+    .desc-cnt{
+        margin-top: 20px;
+    }
+    footer .contacto .cnt{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        border-top: 2px solid rgba(128, 128, 128, 0.27);
+        padding: 6px 0;
+    }
+    footer .contacto .cnt:last-child{
+        border-bottom: 2px solid rgba(128, 128, 128, 0.27);
+    }
+    footer .contacto .circle,footer .fuerza span,footer .fuerza p{
+        display: none;
+    }
+    footer .fuerza{
+        padding: 0;
+    }
+    footer .fuerza .icons{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    footer .fuerza .icons img{
+        margin-right: 20px;
+    }
+    .bottom.etiqueta div, .bottom.etiqueta span{
+        display: flex;
+    }
+    .etiqueta.bottom{
+        padding: 0;
+    }
+    .bottom .list-etiqueta span{
+        font-weight: 900;
+    }
+    .empr-neg p{
+        display: none;
+    }
+    .empr .second,.neg .second{
+        display: flex;
+        height: 60%;
+    }
+    .empr .first,.neg .first{
+        display: flex;
+        height: 40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .empr .first img,.neg .first img{
+        width: 100%;
+        height: 100%;
+    }
+    .empr .second .second1,.neg .second .second2{
+        width: 100%;
+    }
+    .empr-neg h3 {
+        font-size: 21px;
+        width: 200px;
+    }
+    .empr-neg button{
+        font-size: 14px;
+    }
+    /*CATALOGO*/
+    .back-img-portada{
+        width: 100%;
+        height: 100%;
+    }
+    .bisCatImg{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+    .portada .bisCatImg{
+        background-image: url(../src/assets/img/Rectangle\ 82.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-position-x: center;
+    }
+    .w-catalogo{
+        flex-direction: column;
+    }
+    .w-catalogo .desc{
+        width: 100%;
+    }
+    .desc .cnt{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .desc .cnt .line{
+        width: 70%;
+        justify-content: center;
+        display: flex;
+        border-top: 2px solid 
+        rgba(128, 128, 128, 0.27);
+        padding: 10px 0;
+    }
+    .desc .cnt .line:last-child{
+        border-bottom: 2px solid 
+        rgba(128, 128, 128, 0.27);
+    }
+    .desc .cnt .circle{
+        display: none;
+    }
+    .ajust-desc{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        line-height: .9;
+    }
+    .ajust-desc .texto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ajust-desc p{
+        margin: 0;
+        width: 250px;
+        font-size: 12px;
+    }
+    .ajust-desc h2{
+        margin-bottom: 10px;
+    }
+    .ajust-desc span{
+        font-size: 30px;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .catalogo{
+        padding: 60px;
+    }
+    .catalogo .width{
+        padding: 0;
+    }
+    .catalogo .img-line{
+        width: 100%;
+    }
+    .catalogo .img-line img{
+        width: 100%;
+    }
+    /*CONTACTO*/
+    .info-form{
+        flex-direction: column;
+        background-image: url(../src/assets/img/bisonteMesa\ de\ trabajo\ 36\ 1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 50px 0;
+    }
+    .info-form .info{
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        align-items: center;
+        color: #fff;
+    }
+    .info h2{
+        color: #fff;
+    }
+    .info .lista{
+        display: none;
+    }
+    .info-form .form{
+        background-color: transparent;
+        width: 100%;
+        padding: 0;
+    }
+    .info-form .form span{
+        display: none;
+    }
+    .info p{
+        font-size: 12px;
+        font-weight: 300;
+        width: 230px;
+    }
+    .info-form .form input, .info-form .form textarea{
+        width: 300px;
+        text-align: center;
+        background-color: #004672;
+    }
+    .info-form .form div{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .info-form .form div input{
+        width: 100%;
+    }
+    .info-form .form textarea{
+        max-width: 300px;
+        min-width: 300px;
+        max-height: 300px;
+        min-height: 240px;
+    }
+    .nosot-cont .conten-subtitle-img .first{
+        display: none;
+    }
+    .conten-subtitle-img .sec-line{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 30px;
+        line-height: .9;
+    }
+    .conten-subtitle-img .sec-line span:first-child{
+        color: black;
+    }
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .servicios .serv{
+        padding: 10px 0;
+    }
+    .servicios .serv img{
+        width: 60px;
+    }
+    .servicios .serv div{
+        font-size: 12px;
     }
 }
