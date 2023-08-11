@@ -620,6 +620,7 @@ footer .fuerza .icons img{
     width: 100%;
     display: flex;
     padding: 100px 60px;
+    justify-content: center;
 }
 .F4F4F4{
     background-color: #F4F4F4;
