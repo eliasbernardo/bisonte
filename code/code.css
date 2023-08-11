@@ -785,6 +785,983 @@ section .img-line{
     padding-right: 10px;
 }
 
+@media(min-width:768px) and (max-width:1024px){
+    .etiqueta div,.etiqueta span{
+        display: none;
+        padding: 10px;
+    }
+    .name img{
+        width: 40%;
+    }
+    .name-menu-bisonte .menu{
+        display: none;
+    }
+    .portada{
+        position: relative;
+        height: 640px;
+    }
+    .portada .respImg{
+        width: 100%;
+        height: 100%;
+    }
+    .portada img{
+        position: absolute;
+    }
+    /*.portada .bisonteImg{
+        background-image: url(../src/assets/img/Rectanglehome.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-position-x: center;
+    }*/
+    .img-section1{
+        width: 285px;
+        height: 293px;
+    }
+    .conten-subtitle-img{
+        width: 300px;
+    }
+    .conten-subtitle-img .first{
+        font-size: 40px;
+    }
+    .conten-subtitle-img .second{
+        font-size: 35px;
+    }
+    .conten-mision-vision{
+        position: relative;
+    }
+    .mis-vis,.col-confecciones{
+        border: none;
+        width: 100%;
+    }
+    .img.mision-vision{
+        display: none;
+    }
+    .mis-vis .conten-ms-vs.right:first-child{
+        display: none;
+    }
+    .conten-mision-vision{
+        padding: 0;
+    }
+    .conten-mision-vision .width{
+        padding: 0;
+        flex-direction: column;
+    }
+    .conten-ms-vs{
+        height: auto;
+        text-align: center!important;
+    }
+    .col-confecciones .conten-ms-vs.img-bis{
+        display: none;
+    }
+    .conten-ms-vs.left{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .conten-ms-vs.left.first{
+        background-color: #F7F7F7;
+        padding: 40px 0;
+    }
+    .conten-ms-vs.right{
+        display: flex;
+        align-items: center;
+    }
+    .responsive-img{
+        display: flex;
+        width: 100%;
+        height: 300px;
+    }
+    .responsive-img .img{
+        width: 100%;
+        height: 100%;
+    }
+    .col-confecciones{
+        width: 100%;
+        padding: 0;
+    }
+    .mis-vis{
+        padding: 0;
+    }
+    .mis-vis .mision,.mis-vis .vision{
+        padding: 20px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mis-vis{
+        background-color: #F0F0F0;
+    }
+    .mis-vis .vision{
+        background-color: #F7F7F7;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .servicios .width{
+        padding: 0;
+    }
+    .flex-serv .black{
+        overflow: hidden;
+    }
+    .flex-serv .black img{
+        width: 50%;
+        height: 200%;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+        transform: scaleX(-1);
+    }
+    .backImg {
+        width: 50%;
+        min-height: 480px;
+        max-height: 490px;
+    }
+    .logs-confiar{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .confiar-nosotros{
+        padding: 0 20px;
+    }
+    .confiar-nosotros .first{
+        font-size: 48px;
+        text-align: center;
+        display: grid;
+        justify-content: center;
+    }
+    .logs-confiar .log{
+        padding: 10px;
+    }
+    .logs-confiar img{
+        width: 100px;
+    }
+    .logs-confiar .name-log{
+        font-size: 20px;
+    }
+    svg {
+        overflow: hidden;
+        width: 100%;
+    }
+    .atencion{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .atencion .first,.atencion .second{
+        display: none;
+    }
+    .empr-neg{
+        flex-direction: row;
+    }
+    .empr-neg img{
+        width: 100%;
+    }
+    .empr-neg .back-color{
+        display: flex;
+        flex-direction: column;
+    }
+    .empr, .neg{
+        width: 100%;
+        position: relative;
+        padding: 40px 0;
+    }
+    .preg-frec.conten-subtitle-img{
+        width: 100%;
+    }
+    .preg-frec .width{
+        padding: 0;
+    }
+    .preg-frec .first{
+        display: flex;
+        flex-direction: column;
+    }
+    .preg-frec .btn-consultas{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-consultas button{
+        width: 300px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer .logo-text,footer .contacto,footer .fuerza{
+        width: 100%;
+        text-align: center;
+    }
+    footer .logo-text{
+        display: flex;
+        align-items: center;
+    }
+    .logo-text img{
+        width: 200px;
+    }
+    .logo-text p{
+        font-size: 13px;
+        width: 300px;
+    }
+    footer .contacto span{
+        display: none;
+    }
+    .desc-cnt{
+        margin-top: 20px;
+    }
+    footer .contacto .cnt{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        border-top: 2px solid rgba(128, 128, 128, 0.27);
+        padding: 6px 0;
+    }
+    footer .contacto .cnt:last-child{
+        border-bottom: 2px solid rgba(128, 128, 128, 0.27);
+    }
+    footer .contacto .circle,footer .fuerza span,footer .fuerza p{
+        display: none;
+    }
+    footer .fuerza{
+        padding: 0;
+    }
+    footer .fuerza .icons{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    footer .fuerza .icons img{
+        margin-right: 20px;
+    }
+    .bottom.etiqueta div, .bottom.etiqueta span{
+        display: flex;
+    }
+    .etiqueta.bottom{
+        padding: 0;
+    }
+    .bottom .list-etiqueta span{
+        font-weight: 900;
+    }
+    .empr-neg p{
+        display: none;
+    }
+    .empr .second,.neg .second{
+        display: flex;
+        height: 60%;
+    }
+    .empr .first,.neg .first{
+        display: flex;
+        height: 40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .empr .first img,.neg .first img{
+        width: 100%;
+        height: 100%;
+    }
+    .empr .second .second1,.neg .second .second2{
+        width: 100%;
+    }
+    .empr-neg h3 {
+        font-size: 21px;
+        width: 200px;
+    }
+    .empr-neg button{
+        font-size: 14px;
+    }
+    /*CATALOGO*/
+    .back-img-portada{
+        width: 100%;
+        height: 100%;
+    }
+    .bisCatImg{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+    .portada .bisCatImg{
+        background-image: url(../src/assets/img/Rectangle\ 82.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-position-x: center;
+    }
+    .w-catalogo{
+        flex-direction: column;
+    }
+    .w-catalogo .desc{
+        width: 100%;
+    }
+    .desc .cnt{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .desc .cnt .line{
+        width: 70%;
+        justify-content: center;
+        display: flex;
+        border-top: 2px solid 
+        rgba(128, 128, 128, 0.27);
+        padding: 10px 0;
+    }
+    .desc .cnt .line:last-child{
+        border-bottom: 2px solid 
+        rgba(128, 128, 128, 0.27);
+    }
+    .desc .cnt .circle{
+        display: none;
+    }
+    .ajust-desc{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        line-height: .9;
+    }
+    .ajust-desc .texto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ajust-desc p{
+        margin: 0;
+        width: 250px;
+        font-size: 12px;
+    }
+    .ajust-desc h2{
+        margin-bottom: 10px;
+    }
+    .ajust-desc span{
+        font-size: 30px;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .catalogo{
+        padding: 60px;
+    }
+    .catalogo .width{
+        padding: 0;
+    }
+    .catalogo .img-line{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .catalogo .img-line img{
+        width: 400px;
+    }
+    /*CONTACTO*/
+    .info-form{
+        flex-direction: column;
+        background-image: url(../src/assets/img/bisonteMesa\ de\ trabajo\ 36\ 1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 50px 0;
+    }
+    .info-form .info{
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        align-items: center;
+        color: #fff;
+    }
+    .info h2{
+        color: #fff;
+    }
+    .info .lista{
+        display: none;
+    }
+    .info-form .form{
+        background-color: transparent;
+        width: 100%;
+        padding: 0;
+    }
+    .info-form .form span{
+        display: none;
+    }
+    .info p{
+        font-size: 12px;
+        font-weight: 300;
+        width: 230px;
+    }
+    .info-form .form input, .info-form .form textarea{
+        width: 300px;
+        text-align: center;
+        background-color: #004672;
+    }
+    .info-form .form div{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .info-form .form div input{
+        width: 100%;
+    }
+    .info-form .form textarea{
+        max-width: 300px;
+        min-width: 300px;
+        max-height: 300px;
+        min-height: 240px;
+    }
+    .nosot-cont .conten-subtitle-img .first{
+        display: none;
+    }
+    .conten-subtitle-img .sec-line{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 30px;
+        line-height: .9;
+    }
+    .conten-subtitle-img .sec-line span:first-child{
+        color: black;
+    }
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .servicios .serv{
+        padding: 10px 0;
+    }
+    .servicios .serv img{
+        width: 60px;
+    }
+    .servicios .serv div{
+        font-size: 12px;
+    }
+}
+
+@media(min-width:481px) and (max-width:767px){
+    .etiqueta div,.etiqueta span{
+        display: none;
+        padding: 10px;
+    }
+    .name img{
+        width: 50%;
+    }
+    .name-menu-bisonte .menu{
+        display: none;
+    }
+    .portada{
+        position: relative;
+        height: 500px;
+    }
+    .portada .respImg{
+        width: 100%;
+        height: 100%;
+    }
+    .portada img{
+        position: absolute;
+    }
+    /*.portada .bisonteImg{
+        background-image: url(../src/assets/img/Rectanglehome.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-position-x: center;
+    }*/
+    .img-section1{
+        width: 285px;
+        height: 293px;
+    }
+    .conten-subtitle-img{
+        width: 300px;
+    }
+    .conten-subtitle-img .first{
+        font-size: 40px;
+    }
+    .conten-subtitle-img .second{
+        font-size: 35px;
+    }
+    .conten-mision-vision{
+        position: relative;
+    }
+    .mis-vis,.col-confecciones{
+        border: none;
+        width: 100%;
+    }
+    .img.mision-vision{
+        display: none;
+    }
+    .mis-vis .conten-ms-vs.right:first-child{
+        display: none;
+    }
+    .conten-mision-vision{
+        padding: 0;
+    }
+    .conten-mision-vision .width{
+        padding: 0;
+        flex-direction: column;
+    }
+    .conten-ms-vs{
+        height: auto;
+        text-align: center!important;
+    }
+    .col-confecciones .conten-ms-vs.img-bis{
+        display: none;
+    }
+    .conten-ms-vs.left{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .conten-ms-vs.left.first{
+        background-color: #F7F7F7;
+        padding: 40px 0;
+    }
+    .conten-ms-vs.right{
+        display: flex;
+        align-items: center;
+    }
+    .responsive-img{
+        display: flex;
+        width: 100%;
+        height: 300px;
+    }
+    .responsive-img .img{
+        width: 100%;
+        height: 100%;
+    }
+    .col-confecciones{
+        width: 100%;
+        padding: 0;
+    }
+    .mis-vis{
+        padding: 0;
+    }
+    .mis-vis .mision,.mis-vis .vision{
+        padding: 20px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mis-vis{
+        background-color: #F0F0F0;
+    }
+    .mis-vis .vision{
+        background-color: #F7F7F7;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .servicios .width{
+        padding: 0;
+    }
+    .servicios .flex-serv{
+        flex-direction: column;
+    }
+    .flex-serv.black-serv{
+        flex-direction: column-reverse;
+    }
+    .backImg{
+        width: 100%;
+        height: 44vh;
+        min-height: 485px;
+        max-height: 490px;
+        position: relative;
+    }
+    .servicios p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .servicios .text{
+        width: 100%;
+    }
+    .flex-serv .blue{
+        overflow: hidden;
+    }
+    .flex-serv .blue img {
+        width: 50%;
+        height: 200%;
+        position: absolute;
+        left: 50%;
+        z-index: -1;
+        transform: scaleX(-1);
+    }
+    .flex-serv .black{
+        overflow: hidden;
+    }
+    .flex-serv .text{
+        padding: 40px;
+        padding-right: 70px;
+    }
+    .flex-serv .black img{
+        width: 50%;
+        height: 200%;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+        transform: scaleX(-1);
+    }
+    .black-serv .second, .black-serv .four{
+        align-items: end;
+    }
+    .second p, .four p{
+        text-align: end;
+    }
+    .flex-serv .text h2,.flex-serv .text h1{
+        display: none;
+    }
+    .backImg .text h2,.backImg .text h1{
+        display: flex;
+        flex-direction: column;
+    }
+    .backImg .text h2 {
+        font-size: 40px;
+    }
+    .backImg .text h1{
+        font-size: 50px;
+    }
+    .backImg .text{
+        position: absolute;
+        bottom: 0;
+    }
+    .first .text,.third .text,.second .text,.four .text{
+        position: absolute;
+        bottom: 0;
+    }
+    .first .text,.third .text{
+        background-image: linear-gradient(to top, rgb(58 46 160 / 59%) 70%, rgb(65 46 171 / 40%),transparent)
+    }
+    .second .text,.four .text{
+        background-image: linear-gradient(to top, rgb(0 0 0 / 59%) 70%, rgb(48 48 55 / 77%),rgba(255,255,255,4%));
+        display: flex;
+        align-items: end;
+    }
+    .logs-confiar{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .confiar-nosotros{
+        padding: 0 20px;
+    }
+    .confiar-nosotros .first{
+        font-size: 48px;
+        text-align: center;
+        display: grid;
+        justify-content: center;
+    }
+    .logs-confiar .log{
+        padding: 10px;
+    }
+    .logs-confiar img{
+        width: 100px;
+    }
+    .logs-confiar .name-log{
+        font-size: 20px;
+    }
+    svg {
+        overflow: hidden;
+        width: 100%;
+    }
+    .atencion{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .atencion .first,.atencion .second{
+        display: none;
+    }
+    .empr-neg{
+        flex-direction: column-reverse;
+    }
+    .empr-neg img{
+        width: 100%;
+    }
+    .empr-neg .back-color{
+        display: flex;
+        flex-direction: column;
+    }
+    .empr, .neg{
+        width: 100%;
+        position: relative;
+        padding: 40px 0;
+    }
+    .preg-frec.conten-subtitle-img{
+        width: 100%;
+    }
+    .preg-frec .width{
+        padding: 0;
+    }
+    .preg-frec .first{
+        display: flex;
+        flex-direction: column;
+    }
+    .preg-frec .btn-consultas{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-consultas button{
+        width: 300px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer .logo-text,footer .contacto,footer .fuerza{
+        width: 100%;
+        text-align: center;
+    }
+    footer .logo-text{
+        display: flex;
+        align-items: center;
+    }
+    .logo-text img{
+        width: 200px;
+    }
+    .logo-text p{
+        font-size: 13px;
+        width: 300px;
+    }
+    footer .contacto span{
+        display: none;
+    }
+    .desc-cnt{
+        margin-top: 20px;
+    }
+    footer .contacto .cnt{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        border-top: 2px solid rgba(128, 128, 128, 0.27);
+        padding: 6px 0;
+    }
+    footer .contacto .cnt:last-child{
+        border-bottom: 2px solid rgba(128, 128, 128, 0.27);
+    }
+    footer .contacto .circle,footer .fuerza span,footer .fuerza p{
+        display: none;
+    }
+    footer .fuerza{
+        padding: 0;
+    }
+    footer .fuerza .icons{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    footer .fuerza .icons img{
+        margin-right: 20px;
+    }
+    .bottom.etiqueta div, .bottom.etiqueta span{
+        display: flex;
+    }
+    .etiqueta.bottom{
+        padding: 0;
+    }
+    .bottom .list-etiqueta span{
+        font-weight: 900;
+    }
+    .empr-neg p{
+        display: none;
+    }
+    .empr .second,.neg .second{
+        display: flex;
+        height: 60%;
+    }
+    .empr .first,.neg .first{
+        display: flex;
+        height: 40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .empr .first img,.neg .first img{
+        width: 100%;
+        height: 100%;
+    }
+    .empr .second .second1,.neg .second .second2{
+        width: 100%;
+    }
+    .empr-neg h3 {
+        font-size: 21px;
+        width: 200px;
+    }
+    .empr-neg button{
+        font-size: 14px;
+    }
+    /*CATALOGO*/
+    .back-img-portada{
+        width: 100%;
+        height: 100%;
+    }
+    .bisCatImg{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+    .portada .bisCatImg{
+        background-image: url(../src/assets/img/Rectangle\ 82.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-position-x: center;
+    }
+    .w-catalogo{
+        flex-direction: column;
+    }
+    .w-catalogo .desc{
+        width: 100%;
+    }
+    .desc .cnt{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .desc .cnt .line{
+        width: 70%;
+        justify-content: center;
+        display: flex;
+        border-top: 2px solid 
+        rgba(128, 128, 128, 0.27);
+        padding: 10px 0;
+    }
+    .desc .cnt .line:last-child{
+        border-bottom: 2px solid 
+        rgba(128, 128, 128, 0.27);
+    }
+    .desc .cnt .circle{
+        display: none;
+    }
+    .ajust-desc{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        line-height: .9;
+    }
+    .ajust-desc .texto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ajust-desc p{
+        margin: 0;
+        width: 250px;
+        font-size: 12px;
+    }
+    .ajust-desc h2{
+        margin-bottom: 10px;
+    }
+    .ajust-desc span{
+        font-size: 30px;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .catalogo{
+        padding: 60px;
+    }
+    .catalogo .width{
+        padding: 0;
+    }
+    .catalogo .img-line{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .catalogo .img-line img{
+        width: 70%;
+    }
+    /*CONTACTO*/
+    .info-form{
+        flex-direction: column;
+        background-image: url(../src/assets/img/bisonteMesa\ de\ trabajo\ 36\ 1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 50px 0;
+    }
+    .info-form .info{
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        align-items: center;
+        color: #fff;
+    }
+    .info h2{
+        color: #fff;
+    }
+    .info .lista{
+        display: none;
+    }
+    .info-form .form{
+        background-color: transparent;
+        width: 100%;
+        padding: 0;
+    }
+    .info-form .form span{
+        display: none;
+    }
+    .info p{
+        font-size: 12px;
+        font-weight: 300;
+        width: 230px;
+    }
+    .info-form .form input, .info-form .form textarea{
+        width: 300px;
+        text-align: center;
+        background-color: #004672;
+    }
+    .info-form .form div{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .info-form .form div input{
+        width: 100%;
+    }
+    .info-form .form textarea{
+        max-width: 300px;
+        min-width: 300px;
+        max-height: 300px;
+        min-height: 240px;
+    }
+    .nosot-cont .conten-subtitle-img .first{
+        display: none;
+    }
+    .conten-subtitle-img .sec-line{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 30px;
+        line-height: .9;
+    }
+    .conten-subtitle-img .sec-line span:first-child{
+        color: black;
+    }
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .servicios .serv{
+        padding: 10px;
+    }
+    .servicios .serv img{
+        width: 60px;
+    }
+    .servicios .serv div{
+        font-size: 12px;
+    }
+}
+
 @media(max-width:480px){
     .etiqueta div,.etiqueta span{
         display: none;
@@ -798,6 +1775,7 @@ section .img-line{
     }
     .portada{
         position: relative;
+        height: 640px;
     }
     .portada img{
         display: none;
