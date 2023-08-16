@@ -7,12 +7,12 @@
 .etiqueta{
     background-color: #000;
     display: flex;
-    padding: 8px 40px;
+    padding: 15px 40px;
     align-items: center;
 }
 .ball{
-    width: 10px;
-    height: 10px;
+    width: 21px;
+    height: 22px;
     border-radius: 50%;
     text-align: left;
     display: flex;
@@ -24,6 +24,9 @@
 }
 .letter span{
     color: #fff;
+    font-family: 'Lexend', sans-serif;
+    line-height: 27.5px;
+    font-weight: 400;
 }
 .letter.right{
     display: flex;
@@ -32,6 +35,7 @@
 .color{
     background-color: #0077bc;
     display: flex;
+    margin-right: 10px;
 }
 /*header*/
 header{
@@ -59,6 +63,11 @@ header{
     align-items: center;
     background-color: #ebebeb;
 }
+a{
+    list-style: none;
+    color: #000;
+    text-decoration-line: none;
+}
 .menu div{
     font-weight: 900;
     font-family: 'Jost', sans-serif;
@@ -80,14 +89,6 @@ header{
     width: 100%;
     height: 100%;
 }
-/*.back-img-portada{
-    background-image: url(../src/assets/img/Portada\ Bisonte\ Web.png);
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}*/
 .section{
     width: 100%;
     padding: 90px 0;
@@ -782,14 +783,262 @@ section .img-line{
     padding-right: 10px;
 }
 @media (min-width:1281px){
-    .servicios .width{
+    .letter span{
+        font-size: 22px;
+    }
+    .width{
         padding: 0;
-        max-width: 1700px;
+    }
+    .menu div{
+        font-size: 22px;
+        line-height: 31.79px;
+        font-weight: 600;
+    }
+    .portada {
+        max-height: 872px;
+        height: 872px;
+    }
+    .servicios .width,.conten-mision-vision .width, .conten-subtitle-img .width{
+        padding: 0;
+        max-width: 2000px;
     }
     .serv .backImg{
         min-height: 610px;
     }
+    .conten-subtitle-img .first{
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 72px;
+    }
+    .conten-subtitle-img .second{
+        font-weight: 500;
+        font-size: 60px;
+        letter-spacing: -5px;
+        line-height: 72px;
+    }
+    .conten-subtitle-img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conten-subtitle-img p{
+        font-size: 22px;
+        width: 774px;
+    }
+    .conten-ms-vs{
+        height: 400px;
+    }
+    .conten-ms-vs h3{
+        font-size: 80px;
+    }
+    .left span{
+        font-size: 53px;
+        font-weight: 400;
+        font-family: 'Barlow ', sans-serif;
+    }
+    .left p{
+        width: 482px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 22.5px;
+    }
+    .conten-mision-vision .img{
+        width: 561px;
+        height: 305px;
+    }
+    .conten-ms-vs.right span {
+        line-height: 54px;
+        font-size: 45px;
+    }
+    .right p{
+        width: 482px;
+        height: 90px;
+        font-size: 22px;
+        line-height: 27.5px;
+    }
+    .servicios h2{
+        line-height: 54px;
+        font-weight: 400;
+        font-size: 45px;
+    }
+    .servicios h1{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 72px;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    .servicios p{
+        font-size: 22px;
+        line-height: 27.5px;
+        font-weight: 300;
+        width: 431px;
+    }
+    .black2,.blue2{
+        width: 221px;
+        height: 53.38px;
+        font-weight: 600;
+        line-height: 26.01px;
+        font-size: 18px;
+    }
+    .backImg {
+        width: 50%;
+        height: 762px;
+        min-height: 700px;
+        max-height: 762px;
+    }
+    .empr-neg h3{
+        font-size: 35px;
+        line-height: 43.75px;
+    }
+    .empr-neg p {
+        font-weight: 300;
+        font-size: 22px;
+        width: 431px;
+    }
+    .empr-neg button{
+        width: 127px;
+        font-size: 18px;
+        line-height: 26.01px;
+    }
+    .btn-consultas button {
+        width: 562px;
+        height: 91px;
+        font-size: 27px;
+        line-height: 33.75px;
+        font-weight: 400;
+    }
+    .btn-consultas div{
+        padding: 10px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-text img{
+        width: 329px;
+        height: 72px;
+    }
+    .logo-text p{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 27.5px;
+        color: #000000;
+    }
+    footer .contacto span,footer .fuerza span{
+        font-size: 30px;
+        line-height: 37.5px;
+        font-weight: 700;
+        padding-top: 0;
+    }
+    .circle{
+        width: 24px;
+        height: 24px;
+    }
+    .desc-cnt p{
+        font-size: 22px;
+        line-height: 27.5px;
+        font-weight: 400;
+    }
+    footer .fuerza p{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    footer .fuerza .icons img{
+        width: 52px;
+        height: 51px;
+    }
+    /*CATALOGO*/
+    .catalogo{
+        padding: 100px 50px;
+    }
+    .img-line img{
+        width: 558px;
+        height: 468px;
+    }
+    .ajust-desc span{
+        font-family: Barlow Condensed;
+        font-size: 53px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: 0em;
+    }
+    .ajust-desc h2{
+        font-family: Barlow Condensed;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 96px;
+        letter-spacing: 0em;
+    }
+    .ajust-desc p{
+        width: 429px;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+    }
+    /*CONTACTO*/
+    .info span{
+        font-family: Barlow Condensed;
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 54px;
+        letter-spacing: 0em;
+    }
+    .info h2{
+        font-family: Barlow Condensed;
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0em;
+    }
+    .info p{
+        font-family: Lexend;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        width: 354px;
+    }
+    .info .lista span{
+        font-family: Lexend;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 31px;
+        letter-spacing: 0em;
+    }
+    .info-form .info{
+        padding: 70px 0px 70px 70px;
+    }
+    .info .lista{
+        padding-bottom: 10px;
+    }
+    .info-form .form span{
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .info-form .form{
+        padding-left: 90px;
+        align-items: start;
+    }
+    .info-form .form input, .info-form .form textarea,.info-form .form div {
+        width: 624px; 
+    }
+    .info-form .form div input{
+        width: 349px;
+    }
+    .info-form .form div input:first-child{
+        width: 349px;
+    }
+    .info-form .form textarea {
+        width: 450px;
+        height: 240px;
+        max-width: 624px;
+        min-width: 624px;
+        max-height: 300px;
+        min-height: 240px;
+    }
 }
+
 @media(min-width:1025px) and (max-width:1280px){
     .img-section1 {
         width: 300px;
@@ -1965,7 +2214,7 @@ section .img-line{
         align-items: end;
     }
     .logs-confiar{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
     .confiar-nosotros{
         padding: 0 20px;
